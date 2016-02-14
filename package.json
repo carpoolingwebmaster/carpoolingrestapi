@@ -4,8 +4,13 @@
     "description": "Car Pooling Rest API",
     "main": "Server.js",
     "scripts": {
+	    "start": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+	 "repository": {
+    "type": "git",
+    "url": "https://github.com/carpoolingwebmaster/carpoolingrestapi"
+	},
     "author": "Gayan Wimalarathna",
     "license": "ISC",
     "dependencies": {
