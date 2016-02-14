@@ -9,7 +9,8 @@ app.use(bodyParser.urlencoded({"extended": false}));
 
 router.get("/", function (req, res)
 {
-    res.json({"error": false, "message": "Hello World"});
+//    res.json({"error": false, "message": "Welcome to CarPoolingRESTApi site. Webservice is set not available at the moment due to maintenance work is in progress. [Gayan]"});
+      res.json({"error" : false, "message" : "Welcome to CarPoolingREST-API"});
 });
 
 router.route("/users")
@@ -93,7 +94,7 @@ router.route("/users/:id")
                         }
                         res.json(response);
                     });
-                }
+               }
             });
         })
 
@@ -123,5 +124,5 @@ router.route("/users/:id")
         });
 
 app.use('/', router);
-app.listen(8080);
-console.log("Listening to port 8080");
+//app.listen(3080);
+console.log("Listening to default port and CarPoolingRestAPI is running!..");

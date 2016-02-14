@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/opt/rh/nodejs010/root/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ecpress' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json CarPoolingRestAPI@1.0.0 No repository field.
+5 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'ecpress', null ]
+8 verbose cache add name=undefined spec="ecpress" args=["ecpress",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ecpress',
+9 verbose parsed url   path: 'ecpress',
+9 verbose parsed url   href: 'ecpress' }
+10 silly lockFile 7a7ba82d-ecpress ecpress
+11 verbose lock ecpress /var/lib/openshift/56bf45c489f5cf6f7b00009d/.npm/7a7ba82d-ecpress.lock
+12 silly lockFile 7a7ba82d-ecpress ecpress
+13 silly lockFile 7a7ba82d-ecpress ecpress
+14 verbose addNamed [ 'ecpress', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 304bc683-ecpress ecpress@
+17 verbose lock ecpress@ /var/lib/openshift/56bf45c489f5cf6f7b00009d/.npm/304bc683-ecpress.lock
+18 silly addNameRange { name: 'ecpress', range: '*', hasData: false }
+19 verbose request where is /ecpress
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 87168e32fb183eb1
+22 verbose url raw /ecpress
+23 verbose url resolving [ 'https://registry.npmjs.org/', './ecpress' ]
+24 verbose url resolved https://registry.npmjs.org/ecpress
+25 verbose request where is https://registry.npmjs.org/ecpress
+26 info trying registry request attempt 1 at 00:07:49
+27 http GET https://registry.npmjs.org/ecpress
+28 http 404 https://registry.npmjs.org/ecpress
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '2',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Sun, 14 Feb 2016 05:07:49 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-jfk1039-JFK',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1455426469.513318,VS0,VE83' } ]
+30 silly lockFile 304bc683-ecpress ecpress@
+31 silly lockFile 304bc683-ecpress ecpress@
+32 error 404 Not Found
+32 error 404
+32 error 404 'ecpress' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'CarPoolingRestAPI'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 2.6.32-573.12.1.el6.x86_64
+34 error command "node" "/opt/rh/nodejs010/root/usr/bin/npm" "install" "ecpress"
+35 error cwd /var/lib/openshift/56bf45c489f5cf6f7b00009d/nodejs/carpoolingrestapi
+36 error node -v v0.10.35
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
