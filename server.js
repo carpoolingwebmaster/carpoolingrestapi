@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({"extended": false}));
 
 router.get("/", function (req, res)
 {
-    res.json({"error": false, "message": "Hello World"});
+    res.json({"error": false, "message": "Welcome to CarPoolingRestAPI."});
 });
 
 router.route("/users")
@@ -123,5 +123,5 @@ router.route("/users/:id")
         });
 
 app.use('/', router);
-app.listen(8080);
-console.log("Listening to port 8080");
+//app.listen(8080);
+console.log("Listening to default port and CarPoolintRestAPI is running!..");
